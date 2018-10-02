@@ -24,4 +24,3 @@ class generator_test(unittest.TestCase):
             self.assertTrue(isinstance(option, str))
             self.assertEqual(option.__len__(), 3)
         pass
-    
