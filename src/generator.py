@@ -9,6 +9,7 @@ class generator:
             generated_string = ""
             for x in range(3):
                 generated_string += str(random.randint(1,3))
+        if(not generated_list.__contains__(generated_string)):
             generated_list.append(generated_string)
             difficulty_level -= 1
         return generated_list
