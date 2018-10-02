@@ -14,4 +14,5 @@ class generator:
         return generated_list
 
     def choose_password(self, potential_passwords):
+        return potential_passwords[0]
         

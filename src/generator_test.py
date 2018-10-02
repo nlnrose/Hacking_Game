@@ -13,10 +13,14 @@ class generator_test(unittest.TestCase):
         self.assertEqual(generated_list4.__len__(), 6)
         for option in generated_list:
             self.assertTrue(isinstance(option, str))
+            self.assertEqual(option.__len__(), 3)
         for option in generated_list2:
             self.assertTrue(isinstance(option, str))
+            self.assertEqual(option.__len__(), 3)
         for option in generated_list3:
             self.assertTrue(isinstance(option, str))
+            self.assertEqual(option.__len__(), 3)
         for option in generated_list4:
             self.assertTrue(isinstance(option, str))
+            self.assertEqual(option.__len__(), 3)
         pass
